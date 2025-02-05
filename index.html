@@ -2725,8 +2725,7 @@ function setupAutosave() {
 			}
 
 			SetText = function (x) {
-				const decodedScript = atob(x)
-				editor.setValue(decodedScript);
+				editor.setValue("")
 			}
 
 			AddIntellisense = function (l, k, d, i) {
